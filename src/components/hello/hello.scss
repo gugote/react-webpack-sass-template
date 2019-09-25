@@ -1,0 +1,10 @@
+.thediv {
+  color: blue;
+}
+
+.with-background {
+  background: red url('../../images/hashboxed.png') repeat;
+  background-size: cover;
+  height: 300px;
+  display: inline-block;
+}
