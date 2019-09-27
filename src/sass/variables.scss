@@ -1,0 +1,31 @@
+// VARIABLES
+// Basic Colors
+$basic-white: #fff;
+$basic-black: #000;
+$basic-yellow: #ff0;
+
+// App Palette colors
+// Texts and Backgrounds
+// Accent: Action & Links
+// Misc Colors
+
+// Values
+$line-height: 4px;
+
+// Mediaquery
+$small-mobile: 'screen and (min-width: 320px)';
+$mobile: 'screen and (min-width: 375px)';
+$large-mobile: 'screen and (min-width: 414px)';
+$tablet: 'screen and (min-width: 768px)';
+$desktop: 'screen and (min-width: 1024px)';
+$large-desktop: 'screen and (min-width: 1440px)';
+
+// MIXINS
+// Just the font family
+@mixin work-sans($color, $size) {
+  font-family: 'Work Sans', sans-serif;
+  font-size: $size !important;
+  font-weight: 400 !important;
+  color: $color !important;
+  line-height: $size + $line-height !important;
+}

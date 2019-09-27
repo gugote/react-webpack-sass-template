@@ -1,12 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Hello from './components/hello/hello';
+import Signup from '../src/components/signup/signup';
+import '../src/sass/main.scss';
 
 class BaseComponent extends React.Component {
   render() {
     return (
       <div>
-        <Hello />
+        <Signup />
       </div>
     );
   }

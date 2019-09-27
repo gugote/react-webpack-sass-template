@@ -1,5 +1,5 @@
 body {
-  background: purple;
+  background: orange;
   color: white;
 }
 
@@ -8,6 +8,7 @@ body {
 }
 
 .with-background {
+  //background: red url('../../images/hashboxed.png') repeat;
   background-size: cover;
   height: 300px;
   display: inline-block;
