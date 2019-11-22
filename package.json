@@ -37,5 +37,8 @@
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2",
     "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3"
   }
 }

@@ -5,9 +5,19 @@ $basic-black: #000;
 $basic-yellow: #ff0;
 
 // App Palette colors
+$pink: #FF7EBA;
+$green: #39A240;
+
 // Texts and Backgrounds
 // Accent: Action & Links
 // Misc Colors
+
+// Random BG
+$colors: $pink, $green;
+$key: random( length($colors) );
+$nth: nth( $colors, $key );
+
+$bg-color: $nth !default;
 
 // Values
 $line-height: 4px;

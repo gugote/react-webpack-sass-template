@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import logo from '../../images/logo.svg';
+import AppLogo from '../app-logo/app-logo';
 
 export default class Signup extends React.Component {
   render() {
     return (
       <div>
-        <div className="logo">{/* <img src="{logo}" alt="Booklstr" /> */}</div>
+        <AppLogo />
         <div className="welcome-text">
           <h2>Welcome to</h2>
           <h1>Booklstr.</h1>
@@ -19,7 +19,7 @@ export default class Signup extends React.Component {
         </div>
         <div className="foot-note">
           <p>
-            Don't have an account? <a href="/sign-in">Sign In</a>
+            Already have an account? <a href="/sign-in">Log In</a>
           </p>
         </div>
       </div>
