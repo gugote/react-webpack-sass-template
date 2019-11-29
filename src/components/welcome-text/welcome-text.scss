@@ -1,0 +1,17 @@
+@import '../../sass/settings';
+
+.welcome-text {
+  h2 {
+    @include merriweather-light($basic-white, 14px);
+    letter-spacing: 0;
+  }
+  h1 {
+    @include merriweather-black($basic-white, 48px);
+    letter-spacing: 0;
+    padding-bottom: 30px;
+  }
+  h3 {
+    @include merriweather-light($basic-white, 18px, 25px);
+    letter-spacing: 0;  
+  }
+}

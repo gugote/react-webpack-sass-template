@@ -1,9 +1,11 @@
 // App reset and settings:
-@import 'variables';
+@import 'settings';
 @import 'reset';
+@import url("https://blokkfontcom-losgordos.netdna-ssl.com/v2/blokkfont.css");
 
 // App layout and common blocks
 @import 'layout';
+@import 'basic';
 
 // Modules
-// @import 'applogo'
+// Modules have their own css inside the folder to easy edition

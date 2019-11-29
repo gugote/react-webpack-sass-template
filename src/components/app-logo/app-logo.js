@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import logo from '../../images/logo.svg';
-import './app-logo.scss'
+import './app-logo.scss';
 
 export default class AppLogo extends React.Component {
   render() {
@@ -15,6 +15,6 @@ export default class AppLogo extends React.Component {
   }
 }
 
-AppLogo.PropTypes = {
+AppLogo.propTypes = {
   AppLogo: PropTypes.string
 };

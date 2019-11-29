@@ -1,4 +1,9 @@
 // Body
 body {
-  background: $bg-color;
+  background: $theme-color;
+}
+
+.container {
+  width: calc(100% - 60px);
+  margin: 0 auto;
 }

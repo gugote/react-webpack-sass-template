@@ -1,32 +1,42 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import AppLogo from '../app-logo/app-logo';
+import WelcomeText from '../welcome-text/welcome-text';
+import Quotes from '../quotes/quotes';
+import './signup.scss';
 
 export default class Signup extends React.Component {
   render() {
     return (
       <div>
         <AppLogo />
-        <div className="welcome-text">
-          <h2>Welcome to</h2>
-          <h1>Booklstr.</h1>
-          <h3>Book Log and Reading Stats for Data Nerds</h3>
-        </div>
-        <div className="login-cta">
+        <WelcomeText copy={'Create your account'} />
+        <div className="signin-box">
           <form action="">
-            <button>Login</button>
+            <fieldset>
+              <label htmlFor="username">Username</label>
+              <input type="text" />
+            </fieldset>
+            <fieldset>
+              <label htmlFor="password">Password</label>
+              <input type="password" />
+            </fieldset>
+            <fieldset>
+              <button>Create Account</button>
+            </fieldset>
           </form>
+          <div className="footnote">
+            <p>
+              Already have an account? <a href="/sign-in">Log In</a>
+            </p>
+          </div>
         </div>
-        <div className="foot-note">
-          <p>
-            Already have an account? <a href="/sign-in">Log In</a>
-          </p>
-        </div>
-      </div>
+        <Quotes />
+     </div>
     );
   }
 }
 
-Signup.PropTypes = {
+Signup.propTypes = {
   signup: PropTypes.string
 };
