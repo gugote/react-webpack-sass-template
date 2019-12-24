@@ -10,7 +10,7 @@ export default class Signup extends React.Component {
     return (
       <div>
         <AppLogo />
-        <WelcomeText copy={'Create your account'} />
+        <WelcomeText />
         <div className="signin-box">
           <form action="">
             <fieldset>

@@ -19,5 +19,7 @@ export default class WelcomeText extends React.Component {
 }
 
 WelcomeText.propTypes = {
-  WelcomeText: PropTypes.string
+  copy: PropTypes.string.isRequired
 };
+
+
